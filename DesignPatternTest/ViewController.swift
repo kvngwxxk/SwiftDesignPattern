@@ -17,12 +17,14 @@ class ViewController: UIViewController {
         
     }
     func main() {
-        let algorithm = ProductModel()
-        let factory = Factory()
-        factory.setAlgorithm(algorithm: algorithm)
+        let obj = Hello(msg: "안녕하세요")
+        print("원본 내용 = \(obj.getMessage())")
         
-        let computer = factory.build().getInstance()
-        print(computer.toString())
+        let obj2 = obj.clone()
+        obj2.setMessage(msg: "Hello World")
+        
+        print("obj2 = \(obj2.getMessage())")
+        print("obj = \(obj.getMessage())")
     }
 }
 

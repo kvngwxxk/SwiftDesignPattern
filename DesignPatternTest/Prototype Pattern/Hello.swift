@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Hello: Copying {
+class Hello: Prototype {
     private var message: String?
     public init(msg: String?) {
         print("\(String(describing: type(of: self)))클래스 생성 = 생성자 로직 동작")
@@ -22,7 +22,7 @@ class Hello: Copying {
         return self.message ?? ""
     }
     
-    public required convenience init(original: Hello) {
-        self.init(msg: original.message)
+    public required convenience init(prototype: Hello) {
+        self.init(msg: prototype.message)
     }
 }

@@ -7,12 +7,12 @@
 
 import Foundation
 
-protocol Copying {
-    init(original: Self)
+protocol Prototype: AnyObject {
+    init(prototype: Self)
 }
 
-extension Copying {
-    func copy() -> Self {
-        return Self.init(original: self)
+extension Prototype {
+    func clone() -> Self {
+        return Self.init(prototype: self)
     }
 }
