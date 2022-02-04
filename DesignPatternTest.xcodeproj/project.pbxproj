@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0828846F27ACC619008BB372 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0828846E27ACC619008BB372 /* Math.swift */; };
+		0828847327ACC725008BB372 /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0828847227ACC725008BB372 /* Objects.swift */; };
+		0828847527ACF4E8008BB372 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0828847427ACF4E8008BB372 /* Adapter.swift */; };
 		08963001279E2FF10095DC85 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08963000279E2FF10095DC85 /* Config.swift */; };
 		08963003279E300E0095DC85 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08963002279E300E0095DC85 /* Env.swift */; };
 		08963006279E9F9C0095DC85 /* _Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08963005279E9F9C0095DC85 /* _Factory.swift */; };
@@ -63,6 +66,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0828846E27ACC619008BB372 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		0828847227ACC725008BB372 /* Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
+		0828847427ACF4E8008BB372 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 		08963000279E2FF10095DC85 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		08963002279E300E0095DC85 /* Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
 		08963005279E9F9C0095DC85 /* _Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Factory.swift; sourceTree = "<group>"; };
@@ -130,6 +136,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0828846D27ACC605008BB372 /* Adapter Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				0828846E27ACC619008BB372 /* Math.swift */,
+				0828847227ACC725008BB372 /* Objects.swift */,
+				0828847427ACF4E8008BB372 /* Adapter.swift */,
+			);
+			path = "Adapter Pattern";
+			sourceTree = "<group>";
+		};
 		08962FFF279E2FDE0095DC85 /* Singleton Pattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,8 +226,9 @@
 				0897035A279F95A30069D742 /* Abstract Factory Pattern */,
 				0897036D279FEFAA0069D742 /* Builder Pattern */,
 				08DCF41F27A37708007F306E /* Prototype Pattern */,
-				08CE70BA279A9283005D5038 /* ViewController.swift */,
+				0828846D27ACC605008BB372 /* Adapter Pattern */,
 				08CE70C4279A9285005D5038 /* Info.plist */,
+				08CE70BA279A9283005D5038 /* ViewController.swift */,
 				08CE70E8279A92BA005D5038 /* etc */,
 			);
 			path = DesignPatternTest;
@@ -404,6 +421,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08CE70BB279A9283005D5038 /* ViewController.swift in Sources */,
+				0828846F27ACC619008BB372 /* Math.swift in Sources */,
 				08970362279F97DA0069D742 /* TireProduct.swift in Sources */,
 				08CE70B7279A9283005D5038 /* AppDelegate.swift in Sources */,
 				0896300A279EA0F50095DC85 /* LGProduct.swift in Sources */,
@@ -429,6 +447,8 @@
 				08963001279E2FF10095DC85 /* Config.swift in Sources */,
 				08CE70EF279A963D005D5038 /* English.swift in Sources */,
 				0896300C279EA5280095DC85 /* SamsungProduct.swift in Sources */,
+				0828847327ACC725008BB372 /* Objects.swift in Sources */,
+				0828847527ACF4E8008BB372 /* Adapter.swift in Sources */,
 				0897036A279FC0E40069D742 /* USATireProduct.swift in Sources */,
 				089DAE2827A21D0D00958531 /* Algorithm.swift in Sources */,
 				08CE70E7279A929B005D5038 /* Korean.swift in Sources */,
