@@ -42,7 +42,7 @@
 		08CE70EA279A92D2005D5038 /* _Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CE70E9279A92D2005D5038 /* _Hello.swift */; };
 		08CE70EF279A963D005D5038 /* English.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CE70EE279A963D005D5038 /* English.swift */; };
 		08DCF42127A377B0007F306E /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCF42027A377B0007F306E /* Hello.swift */; };
-		08DCF45827A38DF4007F306E /* Copying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCF45727A38DF4007F306E /* Copying.swift */; };
+		08DCF45827A38DF4007F306E /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCF45727A38DF4007F306E /* Prototype.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,7 +102,7 @@
 		08CE70E9279A92D2005D5038 /* _Hello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Hello.swift; sourceTree = "<group>"; };
 		08CE70EE279A963D005D5038 /* English.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = English.swift; sourceTree = "<group>"; };
 		08DCF42027A377B0007F306E /* Hello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
-		08DCF45727A38DF4007F306E /* Copying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copying.swift; sourceTree = "<group>"; };
+		08DCF45727A38DF4007F306E /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,7 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				08DCF42027A377B0007F306E /* Hello.swift */,
-				08DCF45727A38DF4007F306E /* Copying.swift */,
+				08DCF45727A38DF4007F306E /* Prototype.swift */,
 			);
 			path = "Prototype Pattern";
 			sourceTree = "<group>";
@@ -410,7 +410,7 @@
 				089DAE2A27A2234800958531 /* ProductModel.swift in Sources */,
 				08963003279E300E0095DC85 /* Env.swift in Sources */,
 				08A196A627A0D024002892A7 /* Storage.swift in Sources */,
-				08DCF45827A38DF4007F306E /* Copying.swift in Sources */,
+				08DCF45827A38DF4007F306E /* Prototype.swift in Sources */,
 				08963006279E9F9C0095DC85 /* _Factory.swift in Sources */,
 				0897035C279F95C40069D742 /* __Factory.swift in Sources */,
 				08963008279EA09E0095DC85 /* ProductFactory.swift in Sources */,
